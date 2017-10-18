@@ -1,0 +1,23 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.3 }
+
+\bibitem[Pedro, Ota e Doni 2004]{PEDRO2100}
+\abntrefinfo{Pedro, Ota e Doni}{PEDRO; OTA; DONI}{2004}
+{PEDRO, T.; OTA, J.; DONI, H. Vertedouro em degraus. In:  . Curitiba: [s.n.],
+  2004. v.~1, n.~1, p. 9--28.}
+
+\bibitem[Rodriguez e Lee 2004]{JOAO2000}
+\abntrefinfo{Rodriguez e Lee}{RODRIGUEZ; LEE}{2004}
+{RODRIGUEZ, J.; LEE, U. \emph{Vertedouro em degraus}. Curitiba: [s.n.], 2004.
+  v.~1. 9-28~p.}
+
+\bibitem[Tozzi 2004]{TOZZI2004}
+\abntrefinfo{Tozzi}{TOZZI}{2004}
+{TOZZI, M. Vertedouro em degraus.
+\emph{Revista da Vinci}, Curitiba, v.~1, n.~1, p. 9--28, 2004.}
+
+\end{thebibliography}

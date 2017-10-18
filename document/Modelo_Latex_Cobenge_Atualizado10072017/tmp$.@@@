@@ -1,0 +1,8 @@
+-q
+-dNOPAUSE
+-sDEVICE=pbmraw
+-sOUTPUTFILE=cabecalho.png.pbm
+-r600
+-g600x600
+tmp$.ps
+quit.ps

@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Desenvolvido por: 																%%
+%*Arthur Garcia Bartsch e Mateus Constantino Orige (2017)						%%
+%*Contato: pet.udesc@gmail.com (direcionar para Mateus Orige)					%%
+% Observações gerais:															%%
+% *Nome de palavra-chave não está ligado ao idioma								%%
+% *Cabeçalho está por figura (alterar a figura para próximos COBENGE)			%%
+																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Pacotes																		%%
+\RequirePackage[top = 3.75cm, left = 3cm, right = 3cm, bottom = 3.5cm]{geometry}%%
+																				%%
+\RequirePackage{tocstyle}														%%
+																				%%
+\RequirePackage{titlesec}													    %%
+																				%%
+\RequirePackage{mathptmx}														%%
+																				%%
+\RequirePackage{fancyhdr}														%%
+																				%%
+\RequirePackage{caption}														%%
+																				%%
+\RequirePackage[alf]{abntex2cite}												%%
+																				%%
+\bibliographystyle{abntex2-alf}												    %%
+																				%%
+\RequirePackage{graphicx}														%%
+																				%%
+\RequirePackage{amsfonts}														%%
+																				%%
+\RequirePackage{amsmath}														%%
+																				%%
+\RequirePackage[utf8]{inputenc} %escrever em portugues (acentuacao)				%%
+																				%%
+\RequirePackage[english,portuguese]{babel} %Idioma								%%
+																				%%
+																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Aspas																			%%
+\RequirePackage[autostyle,english = american, portuguese = brazilian]{csquotes} %%
+\MakeOuterQuote{"}																%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Seção, Subseção e Subsubseção													%%
+\titleformat{\section}															%%
+  {\bfseries}{\thesection . }{1em}{}											%%
+  \titlespacing{\section}{0em}{1em}{0em}										%%
+  																				%%
+\titleformat{\subsection}														%%
+  {\bfseries}{\thesubsection .}{1em}{}											%%		
+\titlespacing{\subsection}{0.75cm}{1em}{0em}									%%
+																				%%
+\titleformat{\subsubsection}													%%
+  {\itshape}{}{0em}{}															%%
+\titlespacing{\subsubsection}{0.75cm}{1em}{0em}									%%
+																				%%		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+% Resumo																		%%
+\renewenvironment{abstract}														%%
+ {  																			%%
+  \list{}{%																		%%
+    \setlength{\leftmargin}{0mm}% 												%%
+    \setlength{\rightmargin}{\leftmargin}%										%%
+  }%																			%%
+  \vspace{2em}																	%%
+  \item \it \textbf{\abstractname:}\relax}										%%
+ {\endlist}																		%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Palavras-chave 																%%																										%%
+ \newenvironment{keywords}														%%
+ {  																			%%
+  \list{}{%																		%%
+    \setlength{\leftmargin}{0mm}% 												%%
+    \setlength{\rightmargin}{\leftmargin}%										%%
+  }%																			%%
+  \item \it \textbf{Palavras-chave:}\relax}										%%
+ {\endlist}																		%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Título 																		%%
+ \renewcommand{\maketitle}{														%%
+ 	~\\																			%%
+	\begin{center}																%%
+ 	\large\MakeUppercase{\@title} 												%%
+ 	\end{center}																%%
+	\vspace{3em}																%%
+    \date{}{}{}																	%%
+ }																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Autores e informações gerais													%%
+ \newcommand{\autor}[1]{\noindent\textbf{#1}}									%%
+ \newcommand{\email}[1]{ -- #1\\}												%%
+ \newcommand{\infoautor}[5]{													%%
+ \noindent #1\\																	%%
+ \noindent #2\\																	%%
+ \noindent #3 -- #4 -- #5\\														%%
+}																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Cabeçalho e Rodapé																%%							
+\fancyhead{}																	%%
+\fancyfoot{}																	%%
+\fancyhead[c]{\vspace{-2.5cm}													%%
+\includegraphics[scale = 1]{cabecalho.png}\vspace{-1.0cm}}						%%
+\fancyfoot[c]{\begin{tabular}{c}\\												%%
+\includegraphics[width = 0.8\linewidth]{rodape.png}								%%
+\end{tabular}}																	%%
+\pagestyle{fancy}																%%
+																				%%
+\renewcommand{\headrulewidth}{0.0pt}											%%
+\renewcommand{\footrulewidth}{0.0pt}											%%
+																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Indentação																		%%
+\setlength{\parindent}{0.75cm} 													%%
+\setlength{\parskip}{0em}														%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Figuras																		%%
+\captionsetup{																	%%
+  font=normalsize,																%%
+  justification=raggedright,													%%
+  singlelinecheck=false,														%%
+  labelsep = endash,															%%
+  margin = {0.5cm,0.5cm},														%%
+  position=top,																	%%
+  skip=0pt																		%%
+}																				%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+		
