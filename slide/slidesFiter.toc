@@ -1,2 +1,0 @@
-\select@language {portuges}
-\beamer@sectionintoc {2}{kkkkkApresenta\IeC {\c c}\IeC {\~a}o}{3}{0}{1}

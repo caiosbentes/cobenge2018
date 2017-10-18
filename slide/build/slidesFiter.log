@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.25)  18 OCT 2017 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.25)  18 OCT 2017 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,13 +1278,13 @@ Overfull \hbox (2.11945pt too wide) in paragraph at lines 70--70
  []
 
 Package keyval Info: heigh undefined on input line 71.
-<figuras/background.pdf, id=19, pagebox=cropbox, 2409.0pt x 1806.75pt>
+<figuras/background.pdf, id=19, pagebox=cropbox, 1027.84pt x 770.88pt>
 File: figuras/background.pdf Graphic file (type pdf)
 <use figuras/background.pdf>
 Package pdftex.def Info: figuras/background.pdf  used on input line 71. on inpu
 t line 71.
-Package pdftex.def Info: Requested size: 364.19536pt x 273.1236pt on input line
- 71.
+Package pdftex.def Info: Requested size: 364.19536pt x 273.15263pt on input lin
+e 71.
 
 Overfull \hbox (2.11945pt too wide) has occurred while \output is active
 [][] 
@@ -1298,8 +1298,8 @@ File: figuras/background.pdf Graphic file (type pdf)
 <use figuras/background.pdf>
 Package pdftex.def Info: figuras/background.pdf  used on input line 76. on inpu
 t line 76.
-Package pdftex.def Info: Requested size: 364.19536pt x 273.1236pt on input line
- 76.
+Package pdftex.def Info: Requested size: 364.19536pt x 273.15263pt on input lin
+e 76.
 
 Overfull \hbox (2.11945pt too wide) has occurred while \output is active
 [][] 
@@ -1313,8 +1313,8 @@ File: figuras/background.pdf Graphic file (type pdf)
 <use figuras/background.pdf>
 Package pdftex.def Info: figuras/background.pdf  used on input line 14. on inpu
 t line 14.
-Package pdftex.def Info: Requested size: 364.19536pt x 273.1236pt on input line
- 14.
+Package pdftex.def Info: Requested size: 364.19536pt x 273.15263pt on input lin
+e 14.
 
 Overfull \hbox (2.11945pt too wide) has occurred while \output is active
 [][] 
@@ -1323,7 +1323,7 @@ Overfull \hbox (2.11945pt too wide) has occurred while \output is active
 [3
 
 ])
-<figuras/02.png, id=120, 866.23625pt x 866.23625pt>
+<figuras/02.png, id=127, 866.23625pt x 866.23625pt>
 File: figuras/02.png Graphic file (type png)
 <use figuras/02.png>
 Package pdftex.def Info: figuras/02.png  used on input line 97. on input line 9
@@ -1335,8 +1335,8 @@ File: figuras/background.pdf Graphic file (type pdf)
 <use figuras/background.pdf>
 Package pdftex.def Info: figuras/background.pdf  used on input line 97. on inpu
 t line 97.
-Package pdftex.def Info: Requested size: 364.19536pt x 273.1236pt on input line
- 97.
+Package pdftex.def Info: Requested size: 364.19536pt x 273.15263pt on input lin
+e 97.
 
 Overfull \hbox (2.11945pt too wide) has occurred while \output is active
 [][] 
@@ -1373,10 +1373,10 @@ Here is how much of TeX's memory you used:
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on build/slidesFiter.pdf (4 pages, 1281088 bytes).
+Output written on build/slidesFiter.pdf (4 pages, 1225159 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  13 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
